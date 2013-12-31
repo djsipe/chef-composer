@@ -20,6 +20,7 @@
 
 ## Composer Options
 default[:composer][:install_path] = "/usr/local/bin"
+default[:composer][:php_bin] = "/usr/local/zend/bin/php"
 default[:composer][:owner] = "root"
 ## Composer Project Options
 default[:composer][:dev] = false
